@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.urls import path
-from core.views import test_view
+# from core.views import test_view -- A new method of importing views
+from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
